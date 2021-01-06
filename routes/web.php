@@ -44,3 +44,4 @@ Route::get('logout', [UserController::class, 'logout'])->name('logout')->middlew
 Route::fallback(function () {
     abort(404, 'Oops! Page not found...');
 });
+

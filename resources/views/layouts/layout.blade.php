@@ -47,10 +47,10 @@
 
                     @if(auth()->user()->avatar)
                        {{-- <img src="{{asset(auth()->user()->avatar)}}" height="30px" alt="">--}}
-                        <img src="{{asset(auth()->user()->avatar)}}" height="30px" alt=""/>
-                      {{--  {{asset('storage/app/public/'.auth()->user()->avatar)}}--}}
+                        <img src="{{asset('storage/app/public/'.auth()->user()->avatar)}}" height="30px" alt=""/>
+                        {{--{{asset('storage/app/public/'.auth()->user()->avatar)}}--}}
                     @endif
-                </a>
+                   </a>
                 <a href="{{route('logout')}}">Logout</a>
             @else
                 <a href="{{route('register.create')}}">Register</a>
