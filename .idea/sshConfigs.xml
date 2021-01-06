@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="arbolit.beget.tech" id="ddda4806-0f51-4a76-ac09-3e473f8797dd" port="22" nameFormat="DESCRIPTIVE" username="arbolit_petrovich" />
+    </configs>
+  </component>
+</project>

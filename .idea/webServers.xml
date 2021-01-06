@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e35c57b9-a92b-4b1b-8773-e0843c568a79" name="Арболит от Петровича">
+        <fileTransfer rootFolder="/home/a/arbolit/arbolit-petrovich.ru/public_html" accessType="SFTP" host="arbolit.beget.tech" port="22" sshConfigId="ddda4806-0f51-4a76-ac09-3e473f8797dd" sshConfig="arbolit_petrovich@arbolit.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
