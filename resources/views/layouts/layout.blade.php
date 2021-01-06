@@ -47,7 +47,7 @@
 
                     @if(auth()->user()->avatar)
                        {{-- <img src="{{asset(auth()->user()->avatar)}}" height="30px" alt="">--}}
-                        <img src="{{asset('storage/app/public/'.auth()->user()->avatar)}}" height="30px" alt=""/>
+                        <img src="{{asset(auth()->user()->avatar)}}" height="30px" alt=""/>
                       {{--  {{asset('storage/app/public/'.auth()->user()->avatar)}}--}}
                     @endif
                 </a>
